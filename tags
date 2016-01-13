@@ -1,0 +1,320 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FetchSearchEngineNavUrl	./seurlnavajax.php	/^class FetchSearchEngineNavUrl{$/;"	c
+FetchSearchEngineNavUrl	seurlnavajax.php	/^class FetchSearchEngineNavUrl{$/;"	c
+FetchSiteUrl	./forceajax.php	/^class FetchSiteUrl{$/;"	c
+FetchSiteUrl	forceajax.php	/^class FetchSiteUrl{$/;"	c
+FetchUrl	./googlesc.php	/^class FetchUrl{$/;"	c
+FetchUrl	ex/googlesc.php	/^class FetchUrl{$/;"	c
+StealSiteHtml	./forceajax.php	/^    private function StealSiteHtml($urls){$/;"	f
+StealSiteHtml	forceajax.php	/^    private function StealSiteHtml($urls){$/;"	f
+__construct	./forceajax.php	/^    public function __construct($html, $xPathQuery){$/;"	f
+__construct	./googlesc.php	/^    public function __construct($searchEngineUrl, $keyWord, $fixedForBaseUrl, $fixedForGene, $fixedForHost, $xPathQueryForNav, $xPathQueryForSite, $regexForFixSiteUrl, $deep){$/;"	f
+__construct	./seurlnavajax.php	/^    public function __construct($html, $sourcesufix, $urlsufix, $xPathQuery){$/;"	f
+__construct	ex/googlesc.php	/^    public function __construct($searchEngineUrl, $keyWord, $fixedForBaseUrl, $fixedForGene, $fixedForHost, $xPathQueryForNav, $xPathQueryForSite, $regexForFixSiteUrl, $deep){$/;"	f
+__construct	forceajax.php	/^    public function __construct($html, $xPathQuery){$/;"	f
+__construct	forceajax.php	/^    public function __construct($requestHtml, $xPathQuery4A, $xPathQuery4Disp, $regex4Host, $regex4Equiv, $regex4Charaset ){$/;"	f
+__construct	seurlnavajax.php	/^    public function __construct($html, $sourcesufix, $urlsufix, $xPathQuery){$/;"	f
+bool	./forceajax.php	/^                        $bool = preg_match("\/[^\\x01-\\x7E]\/u", $value);$/;"	v
+bool	./forceajax.php	/^                        $bool = preg_match("\/ã\/", $value);$/;"	v
+bool	./forceajax.php	/^                        $bool = preg_match("\/ä\/", $value);$/;"	v
+bool	./forceajax.php	/^                        $bool = preg_match("\/å\/", $value);$/;"	v
+bool	./forceajax.php	/^                        $bool = preg_match("\/æ\/", $value);$/;"	v
+bool	./forceajax.php	/^                        $bool = preg_match("\/ç\/", $value);$/;"	v
+bool	./sitesc.php	/^        $bool = preg_match("\/[^\\x01-\\x7E]\/u", $value);$/;"	v
+bool	./sitesc.php	/^        $bool = preg_match("\/ã\/", $value);$/;"	v
+bool	./sitesc.php	/^        $bool = preg_match("\/ä\/", $value);$/;"	v
+bool	./sitesc.php	/^        $bool = preg_match("\/å\/", $value);$/;"	v
+bool	./sitesc.php	/^        $bool = preg_match("\/æ\/", $value);$/;"	v
+bool	./sitesc.php	/^        $bool = preg_match("\/ç\/", $value);$/;"	v
+bool	ex/sitesc.php	/^        $bool = preg_match("\/[^\\x01-\\x7E]\/u", $value);$/;"	v
+bool	ex/sitesc.php	/^        $bool = preg_match("\/ã\/", $value);$/;"	v
+bool	ex/sitesc.php	/^        $bool = preg_match("\/ä\/", $value);$/;"	v
+bool	ex/sitesc.php	/^        $bool = preg_match("\/å\/", $value);$/;"	v
+bool	ex/sitesc.php	/^        $bool = preg_match("\/æ\/", $value);$/;"	v
+bool	ex/sitesc.php	/^        $bool = preg_match("\/ç\/", $value);$/;"	v
+bool	forceajax.php	/^                $bool = preg_match("\/[^\\x01-\\x7E]\/u", $item, $match);$/;"	v
+bool	forceajax.php	/^                $bool = preg_match("\/[^\\x01-\\x7E]\/u", $value, $match);$/;"	v
+bool	forceajax.php	/^            $bool = preg_match("\/[^\\x01-\\x7E]\/u", $value);$/;"	v
+bool	forceajax.php	/^            $bool = preg_match("\/ã\/", $value);$/;"	v
+bool	forceajax.php	/^            $bool = preg_match("\/ä\/", $value);$/;"	v
+bool	forceajax.php	/^            $bool = preg_match("\/å\/", $value);$/;"	v
+bool	forceajax.php	/^            $bool = preg_match("\/æ\/", $value);$/;"	v
+bool	forceajax.php	/^            $bool = preg_match("\/ç\/", $value);$/;"	v
+byChar	./forceajax.php	/^                        $byChar = "SJIS"; $/;"	v
+byChar	./sitesc.php	/^        $byChar = "SJIS"; $/;"	v
+byChar	ex/sitesc.php	/^        $byChar = "SJIS"; $/;"	v
+byChar	forceajax.php	/^            $byChar = "EUC-JP"; $/;"	v
+byChar	forceajax.php	/^            $byChar = "SJIS"; $/;"	v
+charsetBool	./forceajax.php	/^                    $charsetBool = preg_match("\/<meta.*charset=\\"?([_\\-utf8shijecpUTFSHIJECP]+)\\"?.*>\/", $html, $charset);$/;"	v
+charsetBool	./sitesc.php	/^    $charsetBool = preg_match("\/<meta.*charset=\\"?([_\\-utf8shijecpUTFSHIJECP]+)\\"?.*>\/", $html, $charset);$/;"	v
+charsetBool	ex/sitesc.php	/^    $charsetBool = preg_match("\/<meta.*charset=\\"?([_\\-utf8shijecpUTFSHIJECP]+)\\"?.*>\/", $html, $charset);$/;"	v
+charsetBool	forceajax.php	/^        $charsetBool = preg_match("\/<meta.*charset=\\"?([_\\-utf8shijecpUTFSHIJECP]+)\\"?.*>\/", $html, $charset);$/;"	v
+context	./forceajax.php	/^                    $context = stream_context_create($option);$/;"	v
+context	./googlesc.php	/^            $context = stream_context_create($option);$/;"	v
+context	ex/googlesc.php	/^            $context = stream_context_create($option);$/;"	v
+context	forceajax.php	/^            $context      = $this->createContext($data["host"], $ua);$/;"	v
+context	forceajax.php	/^        $context = stream_context_create($option);$/;"	v
+contextHost	forceajax.php	/^    private $contextHost;$/;"	v
+countSynonymsWordId	./dic.php	/^        $countSynonymsWordId = count($inputSynonymsWordId);$/;"	v
+countSynonymsWordId	ex/dic.php	/^        $countSynonymsWordId = count($inputSynonymsWordId);$/;"	v
+createContext	forceajax.php	/^    private function createContext($contextHost, $contextUa)$/;"	f
+createContext	forceajax.php	/^    private function createContext($host, $ua)$/;"	f
+createContext	forceajax.php	/^    private function createContext()$/;"	f
+createDom	forceajax.php	/^    private function createDom(){ $/;"	f
+createDomEmpty	forceajax.php	/^    private function createDomEmpty()$/;"	f
+createDomObject	forceajax.php	/^    private function createDomObject($resultHtml)$/;"	f
+createXPathObject	forceajax.php	/^    private function createXPathObject($dom)$/;"	f
+db	./dic.php	/^$db = ".\/wnjpn.db";$/;"	v
+db	ex/dic.php	/^$db = ".\/wnjpn.db";$/;"	v
+dbHandle	./dic.php	/^        $dbHandle = new SQLite3($dataBase);$/;"	v
+dbHandle	ex/dic.php	/^        $dbHandle = new SQLite3($dataBase);$/;"	v
+dom	./forceajax.php	/^                    $dom = new DOMDocument();$/;"	v
+dom	./forceajax.php	/^        $dom           = $this->getDomObject($html);$/;"	v
+dom	./forceajax.php	/^        $dom = new DOMDocument();$/;"	v
+dom	./googlesc.php	/^            $dom         = $this->getDomObject($html);$/;"	v
+dom	./googlesc.php	/^        $dom                = $this->getDomObject($html);$/;"	v
+dom	./googlesc.php	/^        $dom = new DOMDocument();$/;"	v
+dom	./seurlnavajax.php	/^        $dom                      = $this->getDomObject($html);$/;"	v
+dom	./seurlnavajax.php	/^        $dom = new DOMDocument();$/;"	v
+dom	./sitesc.php	/^    $dom = new DOMDocument();$/;"	v
+dom	ex/googlesc.php	/^            $dom         = $this->getDomObject($html);$/;"	v
+dom	ex/googlesc.php	/^        $dom                = $this->getDomObject($html);$/;"	v
+dom	ex/googlesc.php	/^        $dom = new DOMDocument();$/;"	v
+dom	ex/sitesc.php	/^    $dom = new DOMDocument();$/;"	v
+dom	forceajax.php	/^        $dom           = $this->getDomObject($html);$/;"	v
+dom	forceajax.php	/^        $dom = $this->createDomEmpty();$/;"	v
+dom	forceajax.php	/^        $dom = new DOMDocument();$/;"	v
+dom	seurlnavajax.php	/^        $dom                      = $this->getDomObject($html);$/;"	v
+dom	seurlnavajax.php	/^        $dom = new DOMDocument();$/;"	v
+dom4SiteUrl	forceajax.php	/^        $dom4SiteUrl       = $this->createDomObject($encodedHtml);$/;"	v
+dom4SiteUrl	forceajax.php	/^        $dom4SiteUrl       = $this->createDomObject($this->fixEncode4Se($requestHtml, $regex4Equiv, $regex4Charaset));$/;"	v
+encodeCheck	forceajax.php	/^    private function encodeCheck($html, $regex4encode, $regex4Charset)$/;"	f
+encodedHtml	./forceajax.php	/^                        $encodedHtml = $html;$/;"	v
+encodedHtml	./forceajax.php	/^                        $encodedHtml = mb_convert_encoding($html, "UTF-8", $byChar);$/;"	v
+encodedHtml	./sitesc.php	/^        $encodedHtml = $html;$/;"	v
+encodedHtml	./sitesc.php	/^        $encodedHtml = mb_convert_encoding($html, "UTF-8", $byChar);$/;"	v
+encodedHtml	ex/sitesc.php	/^        $encodedHtml = $html;$/;"	v
+encodedHtml	ex/sitesc.php	/^        $encodedHtml = mb_convert_encoding($html, "UTF-8", $byChar);$/;"	v
+encodedHtml	forceajax.php	/^            $encodedHtml = $html;$/;"	v
+encodedHtml	forceajax.php	/^            $encodedHtml = mb_convert_encoding($html, "UTF-8", $byChar);$/;"	v
+encodedHtml	forceajax.php	/^        $encodedHtml       = $this->fixEncode4Se($requestHtml, $regex4Equiv, $regex4Charaset);$/;"	v
+encodedHtml	forceajax.php	/^        $encodedHtml     = $equivCharsetTag . $html;$/;"	v
+equivCharsetTag	forceajax.php	/^            $equivCharsetTag = "<meta http-equiv=\\"Content-Type\\" content=\\"text\/html; charset={$charsetMatch[0][1]}\\" \/>";$/;"	v
+equivCharsetTag	forceajax.php	/^        $equivCharsetTag = "<meta http-equiv=\\"Content-Type\\" content=\\"text\/html; charset=UTF-8\\" \/>";$/;"	v
+fetchHtml	forceajax.php	/^    private function fetchHtml($context, $url, $host)$/;"	f
+fetchHtml	forceajax.php	/^    public function fetchHtml($ua)$/;"	f
+fetchHtml	forceajax.php	/^    public function fetchHtml($ua, $regex4encode, $regex4Charset)$/;"	f
+fetchSearchResult	./googlesc.php	/^    private function fetchSearchResult($navUrl, $host){$/;"	f
+fetchSearchResult	ex/googlesc.php	/^    private function fetchSearchResult($navUrl, $host){$/;"	f
+fetchSiteUrl	./googlesc.php	/^    private function fetchSiteUrl($xPathObject, $geneNavUrl, $xPathQuery, $fixed, $regexForFixSiteUrl){$/;"	f
+fetchSiteUrl	ex/googlesc.php	/^    private function fetchSiteUrl($xPathObject, $geneNavUrl, $xPathQuery, $fixed, $regexForFixSiteUrl){$/;"	f
+fetchSiteUrlForFirst	./googlesc.php	/^    private function fetchSiteUrlForFirst($xPathObject, $xPathQuery, $regexForFixSiteUrl){$/;"	f
+fetchSiteUrlForFirst	ex/googlesc.php	/^    private function fetchSiteUrlForFirst($xPathObject, $xPathQuery, $regexForFixSiteUrl){$/;"	f
+fetchSynonyms	./dic.php	/^function fetchSynonyms($dbHandle, $inputSynonymsWordId){$/;"	f
+fetchSynonyms	ex/dic.php	/^function fetchSynonyms($dbHandle, $inputSynonymsWordId){$/;"	f
+fetchSynonymsWordId	./dic.php	/^function fetchSynonymsWordId($dbHandle, $inputSynset){$/;"	f
+fetchSynonymsWordId	ex/dic.php	/^function fetchSynonymsWordId($dbHandle, $inputSynset){$/;"	f
+fetchSynset	./dic.php	/^function fetchSynset($dbHandle, $inputWordId){$/;"	f
+fetchSynset	ex/dic.php	/^function fetchSynset($dbHandle, $inputWordId){$/;"	f
+fetchWordId	./dic.php	/^function fetchWordId($dbHandle, $inputWord){$/;"	f
+fetchWordId	ex/dic.php	/^function fetchWordId($dbHandle, $inputWord){$/;"	f
+fileGetContents	forceajax.php	/^    private function fileGetContents($url, $regex4encode, $regex4Charset)$/;"	f
+firstResult	./googlesc.php	/^        $firstResult        = $this->fetchSiteUrlForFirst($xPathObject, $xPathQueryForSite, $regexForFixSiteUrl);$/;"	v
+firstResult	ex/googlesc.php	/^        $firstResult        = $this->fetchSiteUrlForFirst($xPathObject, $xPathQueryForSite, $regexForFixSiteUrl);$/;"	v
+fixEmptyValue	forceajax.php	/^    private function fixEmptyValue($tempArray){$/;"	f
+fixEmptyValue	forceajax.php	/^    private function fixEmptyValue(){$/;"	f
+fixEncode	forceajax.php	/^    private function fixEncode($html){$/;"	f
+fixEncode4Se	forceajax.php	/^    private function fixEncode4Se($html, $regex4Equiv, $regex4Charaset)$/;"	f
+fixSiteUrl	./googlesc.php	/^    private function fixSiteUrl($url, $regex){$/;"	f
+fixSiteUrl	ex/googlesc.php	/^    private function fixSiteUrl($url, $regex){$/;"	f
+fixed	./googlesc.php	/^$fixed      =$/;"	v
+fixed	./seurlnavajax.php	/^$fixed      =$/;"	v
+fixed	ex/googlesc.php	/^$fixed      =$/;"	v
+fixed	seurlnavajax.php	/^$fixed      =$/;"	v
+fixedUrl	./googlesc.php	/^        $fixedUrl = preg_replace($regex, "", $url);$/;"	v
+fixedUrl	ex/googlesc.php	/^        $fixedUrl = preg_replace($regex, "", $url);$/;"	v
+fixhtml	forceajax.php	/^            $fixhtml = $equivCharsetTag. $html;$/;"	v
+generateingSearchEngineNavUrl	./googlesc.php	/^    private function generateingSearchEngineNavUrl($keyWordedUrl, $fixedForGene, $deep){$/;"	f
+generateingSearchEngineNavUrl	ex/googlesc.php	/^    private function generateingSearchEngineNavUrl($keyWordedUrl, $fixedForGene, $deep){$/;"	f
+getContextHost	forceajax.php	/^    public function getContextHost(){$/;"	f
+getDomObject	./forceajax.php	/^    private function getDomObject($resultHtml){$/;"	f
+getDomObject	./googlesc.php	/^    private function getDomObject($resultHtml){$/;"	f
+getDomObject	./seurlnavajax.php	/^    private function getDomObject($resultHtml){$/;"	f
+getDomObject	ex/googlesc.php	/^    private function getDomObject($resultHtml){$/;"	f
+getDomObject	forceajax.php	/^    private function getDomObject($resultHtml){$/;"	f
+getDomObject	seurlnavajax.php	/^    private function getDomObject($resultHtml){$/;"	f
+getRequestHost	forceajax.php	/^    private function getRequestHost($siteUrlArray, $regex)$/;"	f
+getRequestHost	forceajax.php	/^    private function getRequestHost($url, $regex)$/;"	f
+getResult	./forceajax.php	/^    public function getResult(){$/;"	f
+getResult	forceajax.php	/^    public function getResult(){$/;"	f
+getSQLite3	./dic.php	/^function getSQLite3($dataBase){$/;"	f
+getSQLite3	ex/dic.php	/^function getSQLite3($dataBase){$/;"	f
+getSearchEngineNavUrl	./seurlnavajax.php	/^    public function getSearchEngineNavUrl(){$/;"	f
+getSearchEngineNavUrl	seurlnavajax.php	/^    public function getSearchEngineNavUrl(){$/;"	f
+getSiteUrl	./forceajax.php	/^    public function getSiteUrl(){$/;"	f
+getSiteUrl	forceajax.php	/^    public function getSiteUrl(){$/;"	f
+getXPathObject	./forceajax.php	/^    private function getXPathObject($dom){$/;"	f
+getXPathObject	./googlesc.php	/^    private function getXPathObject($dom){$/;"	f
+getXPathObject	./seurlnavajax.php	/^    private function getXPathObject($dom){$/;"	f
+getXPathObject	ex/googlesc.php	/^    private function getXPathObject($dom){$/;"	f
+getXPathObject	forceajax.php	/^    private function getXPathObject($dom)$/;"	f
+getXPathObject	seurlnavajax.php	/^    private function getXPathObject($dom){$/;"	f
+html	./forceajax.php	/^                    $html = file_get_contents($url, false, $context);$/;"	v
+html	./forceajax.php	/^            $html = "";$/;"	v
+html	./googlesc.php	/^            $html        = $this->fetchSearchResult($tempUrl);$/;"	v
+html	./googlesc.php	/^        $html               = $this->fetchSearchResult($keyWordedUrl, $fixedForHost);$/;"	v
+html	./sitesc.php	/^    $html = file_get_contents($url);$/;"	v
+html	ex/googlesc.php	/^            $html        = $this->fetchSearchResult($tempUrl);$/;"	v
+html	ex/googlesc.php	/^        $html               = $this->fetchSearchResult($keyWordedUrl, $fixedForHost);$/;"	v
+html	ex/sitesc.php	/^    $html = file_get_contents($url);$/;"	v
+html	forceajax.php	/^            $html         = $this->encodeCheck($this->fileGetContents($data["url"], $regex4encode, $regex4Charset));$/;"	v
+html	forceajax.php	/^            $html         = file_get_contents($data["url"]);$/;"	v
+html	forceajax.php	/^            $html = $this->encodeCheck(file_get_contents($url, false, $this->createContext()), $regex4encode, $regex4Charset);$/;"	v
+html	forceajax.php	/^            $html = file_get_contents($url, false, $context);$/;"	v
+i	./forceajax.php	/^        $i = 0;$/;"	v
+i	forceajax.php	/^        $i=0;$/;"	v
+inputWord	./dic.php	/^$inputWord = "諦観";$/;"	v
+inputWord	ex/dic.php	/^$inputWord = "諦観";$/;"	v
+isCharaset	forceajax.php	/^    private function isCharaset($word)$/;"	f
+isCharset	forceajax.php	/^        $isCharset = preg_match_all($regex4Charset, $html, $charsetMatch, PREG_SET_ORDER);$/;"	v
+isEqiuv	forceajax.php	/^        $isEqiuv   = preg_match_all($regex4encode, $html, $equivMatch, PREG_SET_ORDER);$/;"	v
+isGoogle	./forceajax.php	/^                $isGoogle = preg_match("\/google\/",$host[1], $match);$/;"	v
+isGoogle	forceajax.php	/^            $isGoogle     = preg_match("\/google\/", $data["host"], $match);$/;"	v
+isGoogle	forceajax.php	/^            $isGoogle = preg_match("\/google\/",$host[1], $match);$/;"	v
+jsonData	./forceajax.php	/^$jsonData = json_encode($url->getSiteUrl());$/;"	v
+jsonData	./seurlnavajax.php	/^$jsonData = json_encode($url->getSearchEngineNavUrl());$/;"	v
+jsonData	forceajax.php	/^$jsonData = json_encode($url->getSiteUrl());$/;"	v
+jsonData	seurlnavajax.php	/^$jsonData = json_encode($url->getSearchEngineNavUrl());$/;"	v
+keyWordedUrl	./googlesc.php	/^        $keyWordedUrl       = $searchEngineUrl . $keyWord;$/;"	v
+keyWordedUrl	ex/googlesc.php	/^        $keyWordedUrl       = $searchEngineUrl . $keyWord;$/;"	v
+length	./forceajax.php	/^                        $length = mb_strlen($value);$/;"	v
+length	./sitesc.php	/^        $length = mb_strlen($value);$/;"	v
+length	ex/sitesc.php	/^        $length = mb_strlen($value);$/;"	v
+length	forceajax.php	/^            $length = mb_strlen($value);$/;"	v
+option	./forceajax.php	/^                $option =$/;"	v
+option	./googlesc.php	/^            $option =$/;"	v
+option	ex/googlesc.php	/^            $option =$/;"	v
+option	forceajax.php	/^        $option =$/;"	v
+paged	./googlesc.php	/^            $paged       = $i * 10;$/;"	v
+paged	ex/googlesc.php	/^            $paged       = $i * 10;$/;"	v
+prec	./forceajax.php	/^        $prec = false;$/;"	v
+query	./dic.php	/^            $query = $dbHandle->query("SELECT * FROM word WHERE lang = 'jpn' AND wordid = '{$inputSynonymsWordId[$i]['wordid']}'");$/;"	v
+query	./dic.php	/^        $query = $dbHandle->query("SELECT * FROM sense WHERE lang = 'jpn' AND synset = '{$inputSynset}'");$/;"	v
+query	./dic.php	/^        $query = $dbHandle->query("SELECT * FROM sense WHERE lang = 'jpn' AND wordid = '{$inputWordId}'");$/;"	v
+query	./dic.php	/^        $query = $dbHandle->query("SELECT * FROM word WHERE lang = 'jpn' AND lemma = '{$inputWord}'");$/;"	v
+query	ex/dic.php	/^            $query = $dbHandle->query("SELECT * FROM word WHERE lang = 'jpn' AND wordid = '{$inputSynonymsWordId[$i]['wordid']}'");$/;"	v
+query	ex/dic.php	/^        $query = $dbHandle->query("SELECT * FROM sense WHERE lang = 'jpn' AND synset = '{$inputSynset}'");$/;"	v
+query	ex/dic.php	/^        $query = $dbHandle->query("SELECT * FROM sense WHERE lang = 'jpn' AND wordid = '{$inputWordId}'");$/;"	v
+query	ex/dic.php	/^        $query = $dbHandle->query("SELECT * FROM word WHERE lang = 'jpn' AND lemma = '{$inputWord}'");$/;"	v
+regex	./googlesc.php	/^$regex      =$/;"	v
+regex	ex/googlesc.php	/^$regex      =$/;"	v
+regex	forceajax.php	/^$regex      =$/;"	v
+remove1ByteChar	forceajax.php	/^    private function remove1ByteChar($tempArray)$/;"	f
+remove1ByteChar	forceajax.php	/^    private function remove1ByteChar()$/;"	f
+removeLatin1	forceajax.php	/^    private function removeLatin1($tempArray)$/;"	f
+removeLatin1	forceajax.php	/^    private function removeLatin1()$/;"	f
+removeTagEts	forceajax.php	/^    private function removeTagEts($dom4SiteHtml)$/;"	f
+request	./forceajax.php	/^$request    = json_decode(file_get_contents( "php:\/\/input" ) , true);$/;"	v
+request	./seurlnavajax.php	/^$request    = json_decode(file_get_contents( "php:\/\/input" ) , true);$/;"	v
+request	forceajax.php	/^$request    = json_decode(file_get_contents( "php:\/\/input" ) , true);$/;"	v
+request	seurlnavajax.php	/^$request    = json_decode(file_get_contents( "php:\/\/input" ) , true);$/;"	v
+requestHtml	forceajax.php	/^$requestHtml = $request["html"];$/;"	v
+result	./forceajax.php	/^        $result = $xPath->query($xPathQuery);$/;"	v
+result	./forceajax.php	/^        $this->result  = $this->stealSiteHtml($this->siteUrl);$/;"	v
+result	./forceajax.php	/^    private $result;$/;"	v
+result	./googlesc.php	/^            $result      = $xPathObject->query($xPathQuery);$/;"	v
+result	./googlesc.php	/^        $result = $xPathObject->query($xPathQuery);$/;"	v
+result	./googlesc.php	/^$result = new FetchUrl$/;"	v
+result	./seurlnavajax.php	/^        $result = $xPath->query($xPathQuery);$/;"	v
+result	ex/googlesc.php	/^            $result      = $xPathObject->query($xPathQuery);$/;"	v
+result	ex/googlesc.php	/^        $result = $xPathObject->query($xPathQuery);$/;"	v
+result	ex/googlesc.php	/^$result = new FetchUrl$/;"	v
+result	forceajax.php	/^        $result = $xPath->query($xPathQuery);$/;"	v
+result	forceajax.php	/^        $this->result  = $this->stealSiteHtml($this->siteUrl);$/;"	v
+result	forceajax.php	/^    private $result;$/;"	v
+result	seurlnavajax.php	/^        $result = $xPath->query($xPathQuery);$/;"	v
+resultA	forceajax.php	/^        $resultA    = $xPathObj4SiteUrl->query($xPathQuery4A);$/;"	v
+resultDisp	forceajax.php	/^        $resultDisp = $xPathObj4SiteUrl->query($xPathQuery4Disp);$/;"	v
+resultHtml	./googlesc.php	/^            $resultHtml = file_get_contents($navUrl, false, $context);$/;"	v
+resultHtml	ex/googlesc.php	/^            $resultHtml = file_get_contents($navUrl, false, $context);$/;"	v
+savePath	./sitesc.php	/^$savePath = "\/var\/www\/html\/dic\/getcontents.html";$/;"	v
+savePath	ex/sitesc.php	/^$savePath = "\/var\/www\/html\/dic\/getcontents.html";$/;"	v
+searchEngineNavUrl	./googlesc.php	/^        $searchEngineNavUrl = $this->generateingSearchEngineNavUrl($keyWordedUrl, $fixedForGene, $deep);$/;"	v
+searchEngineNavUrl	./googlesc.php	/^    private $searchEngineNavUrl;$/;"	v
+searchEngineNavUrl	./seurlnavajax.php	/^        $this->searchEngineNavUrl = $this->stealSearchEngineNavUrl($xPathObject, $sourcesufix, $urlsufix, $xPathQuery);$/;"	v
+searchEngineNavUrl	./seurlnavajax.php	/^    private $searchEngineNavUrl;$/;"	v
+searchEngineNavUrl	ex/googlesc.php	/^        $searchEngineNavUrl = $this->generateingSearchEngineNavUrl($keyWordedUrl, $fixedForGene, $deep);$/;"	v
+searchEngineNavUrl	ex/googlesc.php	/^    private $searchEngineNavUrl;$/;"	v
+searchEngineNavUrl	seurlnavajax.php	/^        $this->searchEngineNavUrl = $this->stealSearchEngineNavUrl($xPathObject, $sourcesufix, $urlsufix, $xPathQuery);$/;"	v
+searchEngineNavUrl	seurlnavajax.php	/^    private $searchEngineNavUrl;$/;"	v
+secondResult	./googlesc.php	/^        $secondResult       = $this->fetchSiteUrl($xPathObject, $searchEngineNavUrl, $xPathQueryForSite, $fixedForBaseUrl, $regexForFixSiteUrl);$/;"	v
+secondResult	ex/googlesc.php	/^        $secondResult       = $this->fetchSiteUrl($xPathObject, $searchEngineNavUrl, $xPathQueryForSite, $fixedForBaseUrl, $regexForFixSiteUrl);$/;"	v
+sentens	forceajax.php	/^$sentens = $url->fetchHtml($ua, $regex["equiv"], $regex["charset"]); $/;"	v
+siteUrl	./forceajax.php	/^        $this->siteUrl = $this->stealSiteUrl($xPathObject, $xPathQuery);$/;"	v
+siteUrl	./forceajax.php	/^    private $siteUrl;$/;"	v
+siteUrl	./googlesc.php	/^        $this->siteUrl      = array_merge($firstResult, $secondResult);$/;"	v
+siteUrl	./googlesc.php	/^    private $siteUrl;$/;"	v
+siteUrl	ex/googlesc.php	/^        $this->siteUrl      = array_merge($firstResult, $secondResult);$/;"	v
+siteUrl	ex/googlesc.php	/^    private $siteUrl;$/;"	v
+siteUrl	forceajax.php	/^        $this->siteUrl     = $this->getRequestHost($this->siteUrl, $regex4Host);$/;"	v
+siteUrl	forceajax.php	/^        $this->siteUrl     = $this->stealSiteUrl($xPathObj4SiteUrl, $xPathQuery4A, $xPathQuery4Disp);$/;"	v
+siteUrl	forceajax.php	/^        $this->siteUrl = $this->stealSiteUrl($xPathObject, $xPathQuery);$/;"	v
+siteUrl	forceajax.php	/^    private $siteUrl;$/;"	v
+splitComma	forceajax.php	/^    private function splitComma($tempArray)$/;"	f
+splitComma	forceajax.php	/^    private function splitComma()$/;"	f
+statCode	forceajax.php	/^            $statCode = (int)$match[1];$/;"	v
+stealSearchEngineNavUrl	./seurlnavajax.php	/^    private function stealSearchEngineNavUrl($xPath, $sourcesufix, $urlsufix, $xPathQuery){$/;"	f
+stealSearchEngineNavUrl	seurlnavajax.php	/^    private function stealSearchEngineNavUrl($xPath, $sourcesufix, $urlsufix, $xPathQuery){$/;"	f
+stealSiteUrl	./forceajax.php	/^    private function stealSiteUrl($xPath, $xPathQuery){$/;"	f
+stealSiteUrl	forceajax.php	/^    private function stealSiteUrl($xPath, $xPathQuery){$/;"	f
+stealSiteUrl	forceajax.php	/^    private function stealSiteUrl($xPathObj4SiteUrl, $xPathQuery4A, $xPathQuery4Disp)$/;"	f
+syWordIds	./dic.php	/^$syWordIds = fetchSynonymsWordId(getSQLite3($db), $synset);$/;"	v
+syWordIds	ex/dic.php	/^$syWordIds = fetchSynonymsWordId(getSQLite3($db), $synset);$/;"	v
+synonyms	./dic.php	/^$synonyms  = fetchSynonyms(getSQLite3($db), $syWordIds);$/;"	v
+synonyms	ex/dic.php	/^$synonyms  = fetchSynonyms(getSQLite3($db), $syWordIds);$/;"	v
+synset	./dic.php	/^$synset    = fetchSynset(getSQLite3($db), $wordId);$/;"	v
+synset	ex/dic.php	/^$synset    = fetchSynset(getSQLite3($db), $wordId);$/;"	v
+tempArray	forceajax.php	/^            $tempArray         = $this->remove1ByteChar($tempArray);$/;"	v
+tempArray	forceajax.php	/^            $tempArray         = $this->removeTagEts($dom);$/;"	v
+tempArray	forceajax.php	/^            $tempArray        = $this->fixEmptyValue($tempArray);$/;"	v
+tempArray	forceajax.php	/^            $tempArray    = $this->removeTagEts($dom);$/;"	v
+tempFixTabArray	./sitesc.php	/^        $tempFixTabArray = preg_replace("\/\\s\/", "", $value);$/;"	v
+tempFixTabArray	ex/sitesc.php	/^        $tempFixTabArray = preg_replace("\/\\s\/", "", $value);$/;"	v
+tempFixTabArray	forceajax.php	/^            $tempFixTabArray = preg_replace("\/\\s\/", "", $value);$/;"	v
+ua	forceajax.php	/^$ua =  "user-agent:Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/43.0.2357.134 Safari\/537.36\\r\\n";$/;"	v
+url	./forceajax.php	/^$url = new FetchSiteUrl($request["html"], $xPathQuery["gSiteUrl"]);$/;"	v
+url	./seurlnavajax.php	/^$url = new FetchSearchEngineNavUrl($request["html"], $fixed["sourceSufic"], $fixed["googleUrl"], $xPathQuery["gNavUrl"]);$/;"	v
+url	forceajax.php	/^$url = new FetchSiteUrl($requestHtml, $xPathQuery["gSiteUrl"], $xPathQuery["gSiteDisp"], $regex["host"], $regex["enquiv"], $regex["charset"]);$/;"	v
+url	forceajax.php	/^$url = new FetchSiteUrl($requestHtml, $xPathQuery["gSiteUrl"], $xPathQuery["gSiteDisp"], $regex["host"], $regex["equiv"], $regex["charset"]);$/;"	v
+url	forceajax.php	/^$url = new FetchSiteUrl($request["html"], $xPathQuery["gSiteUrl"]);$/;"	v
+url	seurlnavajax.php	/^$url = new FetchSearchEngineNavUrl($request["html"], $fixed["sourceSufic"], $fixed["googleUrl"], $xPathQuery["gNavUrl"]);$/;"	v
+urls	./sitesc.php	/^$urls = array($/;"	v
+urls	ex/sitesc.php	/^$urls = array($/;"	v
+wordId	./dic.php	/^$wordId    = fetchWordId(getSQLite3($db), $inputWord);$/;"	v
+wordId	ex/dic.php	/^$wordId    = fetchWordId(getSQLite3($db), $inputWord);$/;"	v
+xPath	./forceajax.php	/^        $xPath = new DOMXPath($dom);$/;"	v
+xPath	./googlesc.php	/^        $xPath = new DOMXPath($dom);$/;"	v
+xPath	./seurlnavajax.php	/^        $xPath = new DOMXPath($dom);$/;"	v
+xPath	ex/googlesc.php	/^        $xPath = new DOMXPath($dom);$/;"	v
+xPath	forceajax.php	/^        $xPath = new DOMXPath($dom);$/;"	v
+xPath	seurlnavajax.php	/^        $xPath = new DOMXPath($dom);$/;"	v
+xPathObj4SiteUrl	forceajax.php	/^        $xPathObj4SiteUrl  = $this->createXPathObject($dom4SiteUrl);$/;"	v
+xPathObject	./forceajax.php	/^        $xPathObject   = $this->getXPathObject($dom);$/;"	v
+xPathObject	./googlesc.php	/^            $xPathObject = $this->getXPathObject($dom);$/;"	v
+xPathObject	./googlesc.php	/^        $xPathObject        = $this->getXPathObject($dom);$/;"	v
+xPathObject	./seurlnavajax.php	/^        $xPathObject              = $this->getXPathObject($dom);$/;"	v
+xPathObject	ex/googlesc.php	/^            $xPathObject = $this->getXPathObject($dom);$/;"	v
+xPathObject	ex/googlesc.php	/^        $xPathObject        = $this->getXPathObject($dom);$/;"	v
+xPathObject	forceajax.php	/^        $xPathObject   = $this->getXPathObject($dom);$/;"	v
+xPathObject	seurlnavajax.php	/^        $xPathObject              = $this->getXPathObject($dom);$/;"	v
+xPathQuery	./forceajax.php	/^$xPathQuery = $/;"	v
+xPathQuery	./googlesc.php	/^$xPathQuery = $/;"	v
+xPathQuery	./seurlnavajax.php	/^$xPathQuery = $/;"	v
+xPathQuery	ex/googlesc.php	/^$xPathQuery = $/;"	v
+xPathQuery	forceajax.php	/^$xPathQuery = $/;"	v
+xPathQuery	seurlnavajax.php	/^$xPathQuery = $/;"	v
