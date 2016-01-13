@@ -78,11 +78,6 @@ class FetchSiteUrl{
                 "http"=> 
                 [
                     "ignore_error"=>true,
-                    // "method"=>"GET",
-                    // "header"=>
-                    // "host:{$contextHost[1]}\r\n"
-                    // ."{$contextUa}",
-                    // "ignore_error"=>true
                 ]
             ];
         $context = stream_context_create($option);
@@ -105,7 +100,6 @@ class FetchSiteUrl{
         }
 
     }
-
 
     private function isCharaset($word)
     {
