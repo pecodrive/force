@@ -27,7 +27,7 @@ class Db
             $isMatch = preg_match_all("/:[a-z0-9]+/", $prepearSt, $placeHolders, PREG_SET_ORDER);
             if($isMatch){
                 foreach ($placeHolders as $value) {
-                    $rePlaceHolder[] = $value[1];
+                    $rePlaceHolder[] = $value;
                 }
                 return $rePlaceHolder;
             }else{
@@ -36,6 +36,6 @@ class Db
         }catch(\Exception $e){
             echo $e->getMessage();
         }
-        debug_print_backtrace();
+        // debug_print_backtrace();
     }
 }
