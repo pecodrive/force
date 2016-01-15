@@ -2,9 +2,13 @@
 require 'vendor/autoload.php';
 class DbTest extends PHPUnit_Framework_TestCase
 {
+    private $db;
+    public function setUp()
+    {
+        $this->db = new General\Db();
+    }
     public function testAnalyzedPrepearSt()
     {
-        $db = new General\Db();
         $placeHolders = $db->analyzedPrepearSt(":peco, :anino, :desini");
 
         var_dump($placeHolders);
