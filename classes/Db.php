@@ -8,6 +8,9 @@ class Db
     private $result;
     public function __construct()
     {
+        $dsn = 'mysql:dbname=BruteForce;host=127.0.0.1';
+        $user = 'root';
+        $password = 'iop26tyufgh26asd';
         $this->dbHandle = new \PDO();
     }
     public function sqQuery($query)
