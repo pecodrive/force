@@ -36,5 +36,6 @@ class Db
         }catch(\Exception $e){
             echo $e->getMessage();
         }
+        debug_print_backtrace();
     }
 }
