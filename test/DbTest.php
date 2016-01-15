@@ -18,7 +18,7 @@ class DbTest extends PHPUnit_Framework_TestCase
     /**
      * @depends testCheckplaceHolder
      */
-    public function testAnalyzedPrepearSt(string $prepearSt)
+    public function testAnalyzedPrepearSt(\string $prepearSt)
     {
         $placeHolders = $this->db->analyzedPrepearSt($prepearSt);
         $this->assertNotEmpty($placeHolders);
