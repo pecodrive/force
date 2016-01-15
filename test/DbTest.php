@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require '/var/www/html/force/vendor/autoload.php';
 class DbTest extends PHPUnit_Framework_TestCase
 {
     private $db;
