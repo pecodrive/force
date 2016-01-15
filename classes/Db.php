@@ -11,7 +11,7 @@ class Db
         $dsn = 'mysql:dbname=BruteForce;host=127.0.0.1';
         $user = 'root';
         $password = 'iop26tyufgh26asd';
-        $this->dbHandle = new \PDO();
+        $this->dbHandle = new \PDO($dsn, $user, $password);
     }
     public function sqQuery($query)
     {
