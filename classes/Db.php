@@ -8,7 +8,7 @@ class Db
     private $result;
     public function __construct()
     {
-        $this->dbHandle = new PDO();
+        $this->dbHandle = new \PDO();
     }
     public function sqQuery($query)
     {
