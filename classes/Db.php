@@ -31,7 +31,7 @@ class Db
                 }
                 return $rePlaceHolder;
             }else{
-                throw new Exception("prepear Analyzed error!");
+                throw new \Exception("prepear Analyzed error!");
             }
         }catch(\Exception $e){
             echo $e->getMessage();
