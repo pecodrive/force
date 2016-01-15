@@ -7,12 +7,21 @@ class DbTest extends PHPUnit_Framework_TestCase
     {
         $this->db = new General\Db();
     }
-    public function testAnalyzedPrepearSt()
+
+    public function testCheckplaceHolder()
     {
-        $placeHolders = $this->db->analyzedPrepearSt("INSERT INTO REGISTRY (name, value) VALUES (:name, :value)");
-        $this->assertNotEmpty($placeHolders);
-        
+        $prepearSt = $this->db->checkPlaceHolder("INSERT INTO REGISTRY (name, value) VALUES (:name, :value)");
+        $this->assertRegExp("/:[a-z0-9]/", $prepearSt);
+        var_dump($prepearSt);
+        return $prepearSt;
     }
-
-
+    /**
+     * @depends testCheckplaceHolder
+     */
+    public function testAnalyzedPrepearSt(string $prepearSt)
+    {
+        $placeHolders = $this->db->analyzedPrepearSt($prepearSt);
+        $this->assertNotEmpty($placeHolders);
+        var_dump($placeHolders);
+    }
 }
