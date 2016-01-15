@@ -11,7 +11,7 @@ class DbTest extends PHPUnit_Framework_TestCase
     {
         $placeHolders = $this->db->analyzedPrepearSt(":peco, :anino, :desini");
 
-        var_dump("aaaa");
+        var_dump($placeHolders);
     }
 
 
