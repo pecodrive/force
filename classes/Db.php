@@ -32,7 +32,7 @@ class Db
         $prepear = $this->dbHandle->prepear($this->prepearSt);
     }
 
-    public function checkPlaceHolder($prepearSt)
+    public function checkPlaceHolder(string $prepearSt)
     {
         try{
             $isMatch = preg_match("/:[a-z0-9]+/", $prepearSt, $match);
@@ -46,10 +46,10 @@ class Db
         }
     }
 
-    public function analyzedPrepearSt()
+    public function analyzedPrepearSt(string $prepearSt)
     {
         try{
-            $isMatch = preg_match_all("/:[a-z0-9]+/", $this->prepearSt, $placeHolders, PREG_SET_ORDER);
+            $isMatch = preg_match_all("/:[a-z0-9]+/", $prepearSt, $placeHolders, PREG_SET_ORDER);
             if($isMatch){
                 foreach ($placeHolders as $value) {
                     $arrayedPlaceHolder[] = $value;
