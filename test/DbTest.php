@@ -9,7 +9,7 @@ class DbTest extends PHPUnit_Framework_TestCase
     }
     public function testAnalyzedPrepearSt()
     {
-        $placeHolders = $this->db->analyzedPrepearSt("");
+        $placeHolders = $this->db->analyzedPrepearSt(":php");
         $this->assertNotEmpty($placeHolders);
         //var_dump($placeHolders);
     }
