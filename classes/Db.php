@@ -9,7 +9,6 @@ class Db
 
     public function __construct()
     {
-
         $dsn = 'mysql:dbname=BruteForce;host=127.0.0.1';
         $user = 'root';
         $password = 'iop26tyufgh26asd';
@@ -62,5 +61,9 @@ class Db
         }catch(\Exception $e){
             echo $e->getMessage();
         }
+    }
+    public function aaa(){
+        //todo
+
     }
 }
